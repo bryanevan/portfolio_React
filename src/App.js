@@ -5,18 +5,25 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Scroll from "./components/Scroll"
+import Design from "./components/Design";
+
 
 function App() { 
   return (
-    <div>
+    <div className="w-full h-screen relative">
+      <div>
       <Navbar />
+      <Scroll />
       <Home />
       <About />
       <Skills />
       <Works />
       <Contact />
-      <Scroll />
     </div>
-  );
+    <div className="w-full h-screen absolute top-0 left-0">
+      <Design />
+    </div>
+  </div>
+);
 }
 export default App;
