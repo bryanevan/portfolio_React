@@ -1,6 +1,8 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from "react-scroll"; 
+import { TypeAnimation } from 'react-type-animation';
+
 
 const Home = () => {
   return (
@@ -11,10 +13,30 @@ const Home = () => {
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          Full Stack Web Developer
+          <div>
+          I'm A
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-500"></p>
+          <br></br>
+            <TypeAnimation
+              sequence={[
+                'Web Developer',
+                1000,
+                'Programmer',
+                1000,
+                'Traveler',
+                1000,
+                'Nerd' ,
+                1000,
+                'Technophile',
+                1000,
+              ]}
+              speed={40}
+              repeat={Infinity}
+               />
+          </div>
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-          I love working with technology and exploring new ways to build cool stuff.
+        I love working with technology and exploring new ways to build cool stuff.
           When I'm not in front of my computer, you can find me on a beach in Oahu.
         </p>
         <div>
