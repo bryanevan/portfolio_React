@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <div className='bg-sky-800 rounded-lg shadow-lg shadow-[#040c16] hover:scale-110 duration-500'>
                 <p className='text-4xl inline border-b-4 text-gray-300'>Email</p>
-                <p className='break-words text-2xl text-gray-300 py-2'>bryan.evan@yahoo.com</p>
+                <p className='break-words text-2xl text-gray-300 py-2'>berkley009@yahoo.com</p>
             </div>
         </div>
     </div>
