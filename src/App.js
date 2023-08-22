@@ -3,7 +3,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import Works from "./components/Works";
+import Projects from "./components/Projects";
 import Scroll from "./components/Scroll"
 
 
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Works />
+      <Projects />
       <Contact />
   </div>
 );

@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div
     name="home"
-    className="h-screen w-full bg-[#0a192f]"
+    className="h-screen w-full bg-[#012f45]"
   >
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
@@ -21,17 +21,20 @@ const Home = () => {
               sequence={[
                 'Web Developer',
                 1000,
+                'Thinker',
+                1000,
                 'Programmer',
                 1000,
-                'Traveler',
-                1000,
-                'Nerd' ,
+                'Traveler' ,
                 1000,
                 'Technophile',
                 1000,
               ]}
+              wrapper='span'
+              cursor={false}
               speed={40}
               repeat={Infinity}
+
                />
           </div>
         </h2>

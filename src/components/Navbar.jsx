@@ -9,14 +9,14 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import CV from '../assets/CV.png'
+import resume from '../assets/resume.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#012f45] text-gray-300'>
       <div>
         <h1 className='font-thin text-2xl italic font-serif'>Berkley</h1>
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#012f45] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -128,12 +128,12 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href={CV} 
-              download="Berkley_CV"
+              href={resume} 
+              download="Berkley_Bryan__resume"
               target="_blank"
               rel="noreferrer"
               >
-              CV <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
