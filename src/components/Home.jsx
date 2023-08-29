@@ -2,7 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
-import Zoom from "react-reveal/Zoom";
+
 
 const Home = () => {
   return (

@@ -8,7 +8,6 @@ import reactt from "../assets/react_1.png";
 import reacttt from "../assets/react_2.png";
 import react from "../assets/react_3.png";
 import mdb from "../assets/mdb.png";
-import bs from "../assets/bs.png";
 
 const Projects = () => {
   return (
@@ -23,7 +22,7 @@ const Projects = () => {
               Projects
             </p>
             <p className="py-6 text-2xl">
-              Check out some of my most recent projects.
+              Check out what I've been working on.
             </p>
           </div>
           {/* Container */}
@@ -36,10 +35,10 @@ const Projects = () => {
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
                 <span className=" text-lg font-bold text-white tracking-wider">
-                  Angular
+                  myFlix
                 </span>
                 <p className="text-center">
-                  SPA with REST API endpoints to MongoDB
+                  Angular SPA with REST API endpoints to MongoDB
                 </p>
                 <div className="pt-8 text-center">
                   <a href="https://bryanevan.github.io/myFlix_Angular/">
@@ -56,24 +55,24 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${reactt})` }}
+              style={{ backgroundImage: `url(${react})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
                 <span className=" text-lg font-bold text-white tracking-wider">
-                  React
+                  myCinema
                 </span>
                 <p className="text-center">
-                  Serverless PWA with React & AWS Lambda
+                  Movie catalog using React & Bootstrap with external API
                 </p>
                 <div className="pt-8 text-center">
-                  <a href="https://bryanevan.github.io/meet_app">
+                  <a href="https://my-cinema808.netlify.app/login">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
-                  <a href="https://github.com/bryanevan/meet_app/tree/main">
+                  <a href="https://github.com/bryanevan/myCinema-client">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -88,7 +87,7 @@ const Projects = () => {
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
                 <span className=" text-lg font-bold text-white tracking-wider">
-                  MongoDB
+                  API
                 </span>
                 <p className="text-center">
                   Server-side component for my Angular & React movie apps
@@ -129,50 +128,24 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${bs})` }}
+              style={{ backgroundImage: `url(${reactt})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
                 <span className=" text-lg font-bold text-white tracking-wider">
-                  Bootstrap
+                  Meet
                 </span>
                 <p className="text-center">
-                  Pokédex app built in JS and Bootstrap
+                  Serverless PWA with React & AWS Lambda
                 </p>
                 <div className="pt-8 text-center">
-                  <a href="https://bryanevan.github.io/Pokedex/">
+                  <a href="https://bryanevan.github.io/meet_app">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
                   </a>
-                  <a href="https://github.com/bryanevan/Pokedex/blob/main/README.md">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              style={{ backgroundImage: `url(${react})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-              {/* Hover Effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-                <span className=" text-lg font-bold text-white tracking-wider">
-                  ReactJS
-                </span>
-                <p className="text-center">
-                  Movie catalog using React & Bootstrap with external API
-                </p>
-                <div className="pt-8 text-center">
-                  <a href="https://my-cinema808.netlify.app/login">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="https://github.com/bryanevan/myCinema-client">
+                  <a href="https://github.com/bryanevan/meet_app/tree/main">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
