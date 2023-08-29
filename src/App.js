@@ -2,9 +2,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Scroll from "./components/Scroll"
+// import Skills from "./components/Skills";
 
 
 function App() { 
@@ -13,9 +13,8 @@ function App() {
       <Navbar />
       <Scroll />
       <Home />
-      <About />
-      <Skills />
       <Projects />
+      <About />
       <Contact />
   </div>
 );

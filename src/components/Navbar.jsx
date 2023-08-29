@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#012f45] text-gray-300'>
+    <div className='fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#012f45] text-gray-300'>
       <div>
         <h1 className='font-thin text-2xl italic font-serif'>Berkley</h1>
       </div>
@@ -28,18 +28,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
           <Link to='about' smooth={true} duration={500}>
             About
-          </Link>
-        </li>
-        <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
           </Link>
         </li>
         <li>
@@ -79,8 +74,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -112,7 +107,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:berkley009@yahoo.com'
+              href='mailto:dev@berkley.pro'
             >
               Email <HiOutlineMail size={30} />
             </a>
