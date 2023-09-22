@@ -11,11 +11,11 @@ const About = () => {
       className="w-full h-screen bg-[#012f45] text-gray-300"
     >
       <Zoom cascade>
-        <div className="flex flex-col justify-center items-center w-full h-full">
-          <div className=" py-16 rounded-md bg-sky-800 flex flex-col justify-center items-center w-4/6">
-            <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
+        <div className="flex flex-col justify-center items-center py-40 w-auto h-auto">
+          <div className="shadow-2xl shadow-[#040c16] py-16 rounded-md bg-sky-800 flex flex-col justify-center items-center w-4/6">
+            <div className="max-w-[1000px] w-auto gap-8 mb-4">
               <div className="sm:text-right pb-8 pl-4">
-                <p className="text-4xl font-bold inline border-b-4 border-cyan-300">
+                <p className="text-6xl font-bold inline border-b-4 border-cyan-500">
                   About
                 </p>
               </div>
@@ -23,15 +23,27 @@ const About = () => {
             <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
               <div className="sm:text-right text-4xl font-bold">
                 <p>
-                  Aloha. <br></br>
-                  I'm Berkley, nice to meet you. Please take a look around.
+                  Aloha,
+                  <br></br>
+                  I'm Berkley, a full-stack developer based in Honolulu.
                 </p>
               </div>
-              <div>
+              <div className="">
                 <p>
-                  {" "}
-                  A software developer from Honolulu with experience in building
-                  Responsive and Scalable Web Apps in React and Angular.
+                  Endlessly curious and persistent with a love for knowledge and
+                  chasing elusive answers. With a background in machine learning
+                  and economics, I've spent the last 3 years curating my
+                  full-stack abilities to be a contributing member of a
+                  development team by building web applications in React,
+                  Angular and Python. As I continuously refine my skills in
+                  discovering beautiful solutions to complex problems, I look
+                  around to see who I can teach and bring with me in building
+                  better systems, software, and practices. For me, the thrill of
+                  it all comes from the progress and momentum we all create as
+                  members of a community of technologists, each one of us adding
+                  a bit of value in an endless pursuit of efficacy and success.
+                  Mahalo nui loa for reading, and please reach out to me to
+                  collaborate.
                 </p>
               </div>
             </div>
@@ -41,7 +53,7 @@ const About = () => {
               to="contact"
               smooth
               duration={500}
-              className="group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-fuchsia-300 cursor-pointer"
+              className="shadow-2xl shadow-[#040c16] group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-fuchsia-300 cursor-pointer"
             >
               Contact
               <span className="group-hover:rotate-90 duration-300">

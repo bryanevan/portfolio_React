@@ -20,8 +20,8 @@
 .content-div:hover {
     background-image: linear-gradient(
         to right,
-        rgba(255, 155, 112, 0.8),
-        hsla(203, 74%, 61%, 0.8)   
+        #000000cc,
+        #3e143d   
     )!important;
 }
 
@@ -35,8 +35,8 @@
     z-index: 20;
   }
   .icon-style{
-    background-color: #f0abfc;
-    border: 2px solid #fff;
+    background-color: #000000;
+    border: 3px solid #e30bf2;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -48,7 +48,7 @@
   .icon-style:hover{
     animation: none;
     background: #fff;
-    color: #551B54;
+    color: #e30bf2;
     border: 2px solid #551B54;
   }
   @keyframes movebtn {
