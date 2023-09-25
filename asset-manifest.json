@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_React/static/css/main.0d3d792c.css",
-    "main.js": "/portfolio_React/static/js/main.ae51b7d9.js",
-    "static/media/resume.pdf": "/portfolio_React/static/media/resume.33759bc3dbba6a0200e5.pdf",
-    "static/media/react_3.png": "/portfolio_React/static/media/react_3.4ec2195e650fc539cd16.png",
-    "static/media/angular_1.png": "/portfolio_React/static/media/angular_1.5774026b30aec48cda2c.png",
-    "static/media/react_1.png": "/portfolio_React/static/media/react_1.5bf723c2eb20b6d99884.png",
-    "static/media/react_2.png": "/portfolio_React/static/media/react_2.9f448d7bc6bf25fb2e0e.png",
+    "main.css": "/portfolio_React/static/css/main.97f0fdae.css",
+    "main.js": "/portfolio_React/static/js/main.a91c86d3.js",
+    "static/media/back.jpg": "/portfolio_React/static/media/back.3fd8efdd89d3dee0d50c.jpg",
+    "static/media/angular_1.png": "/portfolio_React/static/media/angular_1.1861510d99882acc89f9.png",
+    "static/media/mdb.png": "/portfolio_React/static/media/mdb.954dbccaa8f4c6439db0.png",
+    "static/media/Berkley-Bryan-Resume.pdf": "/portfolio_React/static/media/Berkley-Bryan-Resume.022d495babaa85d96177.pdf",
     "index.html": "/portfolio_React/index.html",
-    "main.0d3d792c.css.map": "/portfolio_React/static/css/main.0d3d792c.css.map",
-    "main.ae51b7d9.js.map": "/portfolio_React/static/js/main.ae51b7d9.js.map"
+    "main.97f0fdae.css.map": "/portfolio_React/static/css/main.97f0fdae.css.map",
+    "main.a91c86d3.js.map": "/portfolio_React/static/js/main.a91c86d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d3d792c.css",
-    "static/js/main.ae51b7d9.js"
+    "static/css/main.97f0fdae.css",
+    "static/js/main.a91c86d3.js"
   ]
 }
