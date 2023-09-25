@@ -9,12 +9,12 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#012f45]"
+      className="w-full md:h-screen text-gray-300 bg-[#000c12]"
     >
       <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-auto h-full">
         <Zoom cascade>
           <div className="pb-2 w-full flex justify-center items-center flex-col">
-            <p className="text-6xl font-bold inline border-b-4 text-gray-300 border-cyan-500">
+            <p className="text-6xl font-bold inline border-b-4 text-gray-300 border-fuchsia-500">
               Projects
             </p>
             <p className="py-6 text-2xl">Check out what I've built</p>
@@ -25,7 +25,7 @@ const Projects = () => {
             {/* myCinema */}
             <div
               style={{ backgroundImage: `url(${ang})` }}
-              className="shadow-2xl shadow-[#040c16] group container rounded-md flex justify-around content-div"
+              className="shadow-2xl shadow-[#4d004d] group container rounded-md flex justify-around content-div"
             >
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
                 <div className="text-xl text-gray-300 font-bold text-white tracking-wider">
@@ -33,12 +33,12 @@ const Projects = () => {
                 </div>
                 <div className="pt-8 text-center">
                   <a href="https://my-cinema808.netlify.app/login">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Demo
                     </button>
                   </a>
                   <a href="https://github.com/bryanevan/myCinema-client">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Code
                     </button>
                   </a>
@@ -50,12 +50,12 @@ const Projects = () => {
                 </div>
                 <div className="pt-8 text-center">
                   <a href="https://bryanevan.github.io/myFlix_Angular/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Demo
                     </button>
                   </a>
                   <a href="https://github.com/bryanevan/myFlix_Angular">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Code
                     </button>
                   </a>
@@ -82,7 +82,7 @@ const Projects = () => {
             {/* API */}
             <div
               style={{ backgroundImage: `url(${mdb})` }}
-              className="shadow-2xl shadow-[#040c16] min-w-0 group container rounded-md flex justify-center items-center mx-auto content-div"
+              className="shadow-2xl shadow-[#4d004d] min-w-0 group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               <div className="opacity-0 group-hover:opacity-100 flex justify-self-end flex-col">
                 <span className="text-xl text-gray-300 font-bold text-white tracking-wider">
@@ -90,7 +90,7 @@ const Projects = () => {
                 </span>
                 <div className="pt-8 text-center">
                   <a href="https://github.com/bryanevan/myCinema-server-application">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-slate-800 text-gray-300 font-bold text-lg">
                       Code
                     </button>
                   </a>
@@ -101,7 +101,7 @@ const Projects = () => {
               to="about"
               smooth
               duration={500}
-              className="shadow-2xl shadow-[#040c16] group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-fuchsia-300 cursor-pointer"
+              className="shadow-2xl shadow-[#4d004d] border border-sky-950 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md cursor-pointer"
             >
               About
               <span className="group-hover:rotate-90 duration-300">

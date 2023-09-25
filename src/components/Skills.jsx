@@ -5,7 +5,7 @@ import Zoom from "react-reveal/Zoom";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#012f45] text-gray-300">
+    <div name="skills" className="w-full h-screen bg-[#000c12] text-gray-300">
       <Zoom cascade>
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -18,40 +18,40 @@ const Skills = () => {
             </p>
           </div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">HTML</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">CSS</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">JAVASCRIPT</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">REACT</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">ANGULAR</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">NODE JS</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">MONGO DB</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">SQL/NoSQL</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">DJANGO</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">PYTHON</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">GITHUB</p>
             </div>
-            <div className="bg-sky-800 shadow-lg shadow-[#040c16] hover:scale-110 duration-500">
+            <div className="bg-sky-800 shadow-lg shadow-[#4d004d] hover:scale-110 duration-500">
               <p className="my-4">REACT NATIVE</p>
             </div>
           </div>

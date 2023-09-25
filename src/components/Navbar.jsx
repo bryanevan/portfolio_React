@@ -16,9 +16,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#012f45] text-gray-300">
+    <div className="fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#000c12] text-gray-300">
       <div>
-        <h1 className="font-thin text-2xl italic font-serif">Berkley</h1>
+        <h1 className="font-thin text-4xl italic font-serif">Berkley</h1>
       </div>
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
@@ -52,7 +52,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#012f45] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#000c12] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -127,7 +127,7 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resumé <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
