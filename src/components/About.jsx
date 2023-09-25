@@ -8,7 +8,7 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-[#000c12] text-gray-300"
+      className="w-full md:h-screen bg-[#000c12] text-gray-300"
     >
       <Zoom cascade>
         <div className="flex flex-col justify-center items-center py-40 w-auto h-auto">
