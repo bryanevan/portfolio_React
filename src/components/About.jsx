@@ -8,14 +8,14 @@ const About = () => {
     <div
       name="about"
       id="about"
-      className="w-full h-screen bg-[#012f45] text-gray-300"
+      className="w-full h-screen bg-[#000c12] text-gray-300"
     >
       <Zoom cascade>
         <div className="flex flex-col justify-center items-center py-40 w-auto h-auto">
-          <div className="shadow-2xl shadow-[#040c16] py-16 rounded-md bg-sky-800 flex flex-col justify-center items-center w-4/6">
+          <div className="shadow-2xl shadow-[#4d004d] py-16 rounded-md bg-slate-800 flex flex-col justify-center items-center w-4/6">
             <div className="max-w-[1000px] w-auto gap-8 mb-4">
               <div className="sm:text-right pb-8 pl-4">
-                <p className="text-6xl font-bold inline border-b-4 border-cyan-500">
+                <p className="text-6xl font-bold inline border-b-4 border-fuchsia-500">
                   About
                 </p>
               </div>
@@ -53,7 +53,7 @@ const About = () => {
               to="contact"
               smooth
               duration={500}
-              className="shadow-2xl shadow-[#040c16] group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-fuchsia-300 cursor-pointer"
+              className="shadow-2xl shadow-[#4d004d] border border-sky-950 text-white bg-gradient-to-r from-slate-900 to-fuchsia-900 group text-white w-fit px-4 py-3 my-2 flex items-center rounded-md cursor-pointer"
             >
               Contact
               <span className="group-hover:rotate-90 duration-300">
